@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@container-width: 1170px;
+@padding: 15px;
+@margin-auto: 0 auto;
+
+@col-md-3: 25%;
+@col-md-9: 75%;
+@col-xs-9: 75%;
+
+.container{
+    padding: @padding;
+    margin: @margin-auto;
+    width: @container-width;
+}
+.col-md-3{
+    width: @col-md-3;
+    float: left;
+}
+.col-xs-3 {
+    width: @col-md-3;
+    float: left;
+}
+.col-xs-9 {
+    width: @col-xs-9;
+    float: left;
+}
